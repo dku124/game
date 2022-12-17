@@ -1,0 +1,17 @@
+.logo .image {
+  margin: 10px 0px;
+}
+.footer {
+  padding: 3rem 0;
+}
+.description,
+.copyright {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+.copyright {
+  font-size: 0.8rem;
+  text-align: center;
+}

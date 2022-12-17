@@ -1,0 +1,207 @@
+.app .game_item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.app .game_item {
+  background-color: transparent;
+}
+.app .game_item .communication {
+  display: none;
+}
+.app .game_item .title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.app .game_item {
+  margin-top: 0;
+  padding: 0 10px;
+}
+.game_content section {
+  padding: 10px 0;
+}
+.game_content .breadcrumbs {
+  padding: 0;
+}
+.game_txt {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: #000000c4;
+  text-align: justify;
+}
+.game_detail img {
+  display: block;
+  margin: 0 auto;
+  width: 540px;
+  object-fit: cover;
+}
+.list_game li img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.list_game li a {
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+  background-color: transparent;
+}
+.list_game li a .communication {
+  display: none;
+}
+.section_title {
+  box-shadow: 0 4px 24px 0 rgb(43 64 115 / 8%);
+  font-size: 1.2rem;
+}
+.category_content {
+  margin-top: 1rem;
+}
+.category_content span {
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 0.4rem;
+  cursor: pointer;
+}
+.category_content span:hover {
+  background-color: #00bceb;
+  color: #fff;
+}
+.comment_block {
+  width: 100%;
+  box-shadow: 1px 16px 33px -3px rgb(0 0 0 / 55%);
+  background-color: #fff;
+  padding: 1.5rem;
+}
+.form_txt .inp_group {
+  display: flex;
+  column-gap: 1rem;
+}
+.form_txt .inp {
+  display: flex;
+  height: 40px;
+  flex: 1;
+  padding: 0 15px;
+  border-radius: 6px;
+  border: 1px solid #dcdfe3;
+  font-size: 0.9rem;
+  color: #526171;
+}
+.form_txt input,
+.form_txt textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+}
+.form_txt .textarea {
+  margin-top: 1rem;
+  height: 100px;
+}
+.form_check label {
+  font-size: 0.87rem;
+  display: inline-block;
+}
+.form_check {
+  margin-top: 1rem;
+  display: flex;
+  column-gap: 0.5rem;
+}
+.form_check label a {
+  color: #00bceb;
+}
+.form_capcha {
+  margin-top: 1rem;
+}
+.comment_form button {
+  margin-top: 1rem;
+}
+
+.comment_content {
+  margin-top: 2rem;
+}
+
+.content_list {
+  margin-top: 1rem;
+}
+
+.content_list li {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px 30px 30px;
+  background: #fff;
+  border: 1px solid #dcdfe3;
+  border-radius: 6px;
+}
+
+.user_info .user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #dcdfe3;
+}
+.user_info .user i {
+  font-size: 1.2rem;
+}
+.user_info {
+  display: flex;
+  column-gap: 0.5rem;
+  line-height: 20px;
+}
+.nickname {
+  width: 100%;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #273a4e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.time {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #96a0a9;
+}
+.user_cmt {
+  display: block;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.75;
+  overflow: hidden;
+  color: #000;
+  margin: 0.4rem 0;
+}
+.user_action {
+  display: flex;
+  column-gap: 2rem;
+}
+.user_action span {
+  display: flex;
+  column-gap: 0.1rem;
+  cursor: pointer;
+}
+.pagination_button {
+  display: flex;
+  column-gap: 0.5rem;
+  justify-content: center;
+}
+.pagination_button li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dcdfe3;
+}
+
+@media screen and (max-width: 768px) {
+  .game_detail img {
+    width: 100%;
+  }
+}

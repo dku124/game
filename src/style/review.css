@@ -1,0 +1,20 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.breadcrumbs .title {
+  font-size: 15px;
+  color: #85888e;
+  padding: 10px;
+}
+.breadcrumbs .title:hover {
+  color: #00bceb;
+}
+.review_title {
+  margin: 10px 0;
+}
+.review_desc {
+  font-size: 1rem;
+  color: #000;
+}

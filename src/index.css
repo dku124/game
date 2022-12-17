@@ -1,0 +1,99 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+/* reset default style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+
+:root {
+  --primary-color: #ffc045;
+  --bg-color: aliceblue;
+  --bg--footer: #2a254e;
+}
+
+/* base style */
+
+body {
+  background: #fff;
+  font-family: Poppins, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: 'RocknRoll One', sans-serif !important; */
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1,
+h2 {
+  /* font-size: 2.1rem;
+  font-weight: 600;
+  color: #212245; */
+}
+
+ul,
+li,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 60px 0px;
+}
+button {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.body {
+  background-color: var(--bg-color);
+  padding: 4rem 0;
+}
+.section {
+}
+.rating i {
+  color: #ffc800;
+  font-size: 1.2rem;
+}
+.footer {
+  background-color: var(--bg--footer);
+}
+.logo .image {
+  padding: 8px;
+  font-family: cursive;
+  font-size: 24px;
+  color: #ffc045;
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--primary-color);
+  padding: 7px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.pagination_button .selected,
+.pagination_button .disabled {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+}
