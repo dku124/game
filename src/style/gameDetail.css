@@ -34,6 +34,7 @@
   display: block;
   margin: 0 auto;
   width: 540px;
+  height: 300px;
   object-fit: cover;
 }
 .list_game li img {
@@ -203,5 +204,8 @@
 @media screen and (max-width: 768px) {
   .game_detail img {
     width: 100%;
+  }
+  .game_detail img {
+    height: 260px;
   }
 }

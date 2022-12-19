@@ -5,7 +5,6 @@ import aboutImg from '../assets/images/aboutus.png';
 import webName from '../assets/data/webName';
 
 import '../style/aboutus.css';
-import AdsBlock from '../component/ui/ads/AdsBlock';
 
 const Aboutus = () => {
   return (
