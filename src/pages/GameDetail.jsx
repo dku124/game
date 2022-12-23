@@ -9,6 +9,8 @@ import '../style/gameDetail.css';
 import AdsBlock from '../component/ui/ads/AdsBlock';
 import Question from '../component/ui/question/Question';
 import ReactPaginate from 'react-paginate';
+
+import api from '../assets/data/api';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
@@ -21,7 +23,7 @@ const GameDetail = () => {
   useEffect(() => {
     const getApi = async () => {
       try {
-        const res = await axios.get('http://139.180.139.46:7978/api/game-json');
+        const res = await axios.get(api[0].gameJson);
         setGames(res.data.data);
       } catch (error) {
         console.log(error);
