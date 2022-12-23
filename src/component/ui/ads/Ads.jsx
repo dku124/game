@@ -3,13 +3,14 @@ import { useEffect } from 'react';
 import code from '../../../assets/data/code';
 
 const Ads = () => {
-  const { src, dataAdClient, dataAdSlot } = code[0];
+  const { src, dataAdClient, dataAdSlot, type } = code[0];
 
   useEffect(() => {
     const installGoogleAds = () => {
       const elem = document.createElement('script');
       elem.src = src;
       elem.async = true;
+      elem.type = type;
       document.body.insertBefore(elem, document.body.firstChild);
     };
     installGoogleAds();
