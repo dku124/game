@@ -2,7 +2,7 @@ import React from 'react';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row } from 'reactstrap';
-import webName from '../../assets/data/webName';
+import code from '../../assets/data/code';
 
 import '../../style/header.css';
 
@@ -21,7 +21,7 @@ const Header = () => {
           <div className="header_cont">
             <div className="logo">
               <a href="#" className="image">
-                {webName[0].title}
+                {code[0].title}
               </a>
             </div>
             <div className="navigation" ref={navRef}>

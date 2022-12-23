@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Hel from '../component/helmet/Hel';
 import aboutImg from '../assets/images/aboutus.png';
-import webName from '../assets/data/webName';
+import code from '../assets/data/code';
 
 import '../style/aboutus.css';
 
@@ -36,7 +36,7 @@ const Aboutus = () => {
               <div className="about_detail">
                 <h3>About us</h3>
                 <p>
-                  {webName[0].title} isn’t just an app’s catalog. Our team made a great research and handpicked the best Android and iOS apps so that you could
+                  {code[0].title} isn’t just an app’s catalog. Our team made a great research and handpicked the best Android and iOS apps so that you could
                   enjoy your experience with any of them. Here you will only find the titles that are worth your attention.
                 </p>
                 <p>
